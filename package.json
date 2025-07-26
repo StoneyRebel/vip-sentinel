@@ -1,0 +1,51 @@
+{
+  "name": "vip-manager",
+  "version": "1.0.0",
+  "description": "Automated VIP management system for Hell Let Loose CRCON servers",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "service": "node src/vip-service.js",
+    "manager": "node src/vip-manager.js",
+    "test": "node src/vip-manager.js test",
+    "backup": "node src/vip-manager.js backup",
+    "analyze": "node src/vip-manager.js analyze",
+    "cleanup": "node src/vip-manager.js cleanup",
+    "status": "node src/vip-service.js status",
+    "health": "curl -f http://localhost:3000/health || exit 1"
+  },
+  "keywords": [
+    "hell-let-loose",
+    "crcon",
+    "vip",
+    "gaming",
+    "server-management",
+    "discord",
+    "automation"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vip-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/vip-manager/issues"
+  },
+  "homepage": "https://github.com/yourusername/vip-manager#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "node-cron": "^4.2.1"
+  },
+  "devDependencies": {},
+  "bin": {
+    "vip-manager": "./src/vip-manager.js",
+    "vip-service": "./src/vip-service.js"
+  }
+}
