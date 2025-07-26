@@ -159,3 +159,4 @@ This project is licensed under the ISC License.
 - **Documentation**: Check this README for setup and usage instructions
 
 Your VIP Manager is now ready for deployment! 🎉
+# vip-sentinel
