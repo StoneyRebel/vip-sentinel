@@ -1,4 +1,4 @@
-# 🎖️ VIP Manager for Hell Let Loose CRCON
+# 🎖️ VIP Sentinel for Hell Let Loose CRCON
 
 An automated VIP management system for Hell Let Loose servers using CRCON. This bot handles VIP file backups, expiration monitoring, and Discord notifications.
 
@@ -46,8 +46,8 @@ An automated VIP management system for Hell Let Loose servers using CRCON. This 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/vip-manager.git
-cd vip-manager
+git clone https://github.com/StoneyRebel/vip-sentinel.git
+cd vip-sentinel
 
 # Install dependencies
 npm install
@@ -158,5 +158,5 @@ This project is licensed under the ISC License.
 - **Issues**: Report bugs or request features via GitHub Issues
 - **Documentation**: Check this README for setup and usage instructions
 
-Your VIP Manager is now ready for deployment! 🎉
+Your VIP Sentinel is now ready for deployment! 🎉
 # vip-sentinel
